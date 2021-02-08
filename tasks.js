@@ -73,3 +73,32 @@
 // } 
 // makeArray(['Манго', 'Поли'], ['Аякс', 'Челси'], 3); //возвращает ['Манго', 'Поли', 'Аякс']
 // makeArray(['Земля', 'Юпитер'], ['Нептун', 'Уран'], 4);
+
+
+// function calculateTotal(number) {
+//   // Пиши код ниже этой строки
+//   let total = 0;
+// for (let i = 1; i <= number; i +=1) {
+//   total += i;
+  
+// }
+
+// return total;
+//   // Пиши код выше этой строки
+// }
+
+// // calculateTotal(3);
+// console.log(calculateTotal(3));
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   console.log(order.length);
+//   // Пиши код ниже этой строки
+// for (let i=0; i< order.length; i+=1) {
+// total += order[i];
+// }
+//   // Пиши код выше этой строки
+//   return total;
+// }
+// //calculateTotalPrice([12, 85, 37, 4])
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
