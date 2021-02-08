@@ -140,3 +140,21 @@
   //   }
 //   // Пиши код выше этой строки
 // }
+
+// / function includes(array, value) {
+//   // Пиши код ниже этой строки
+// for (const element of array) {
+//   if (element === value){
+//     return true
+//   }
+// }
+//   return false
+  
+//   // Пиши код выше этой строки
+// }
+  
+//   // Пиши код выше этой строки
+// }
+
+
+// getCommonElements([1, 2, 3], [2, 1, 17, 19]);
