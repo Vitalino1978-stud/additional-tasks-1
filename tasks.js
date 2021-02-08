@@ -40,3 +40,14 @@
 // checkForSpam('Trust me, this is not a spam message'); 
 // checkForSpam('Get rid of sPaM emails. Our book in on sale!');
 // checkForSpam('[SPAM] How to earn fast money?');
+
+// function slugify(title) {
+//   // Пиши код ниже этой строки
+ 
+//   const slug = title.toLowerCase().split(' ').join('-');
+  
+//  return slug;
+//   // Пиши код выше этой строки
+// }
+// slugify('Массивы для новичков');
+// console.log(slugify('Массивы для новичков'));
