@@ -149,12 +149,20 @@
 //   }
 // }
 //   return false
-  
-//   // Пиши код выше этой строки
+ //   // Пиши код выше этой строки
 // }
-  
-//   // Пиши код выше этой строки
-// }
-
 
 // getCommonElements([1, 2, 3], [2, 1, 17, 19]);
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Пиши код ниже этой строки
+//   for (const price of order) {
+  // total += price;
+//   }
+//   //for (let i = 0; i < order.length; i += 1) {
+//   //  total += order[i];
+//   //}
+
+//   // Пиши код выше этой строки
+//   return total;
+// }
