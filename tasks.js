@@ -61,3 +61,15 @@
 // const lastThreeEls = fruits.slice(-3);
 // console.log(lastThreeEls);
 
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Пиши код ниже этой строки
+//   const makeArray1 = firstArray.concat(secondArray).slice(0, maxLength);
+//   // console.log(unitedArray);
+
+//   console.log(makeArray1);
+
+//   //  return makeArray; 
+//     // Пиши код выше этой строки
+// } 
+// makeArray(['Манго', 'Поли'], ['Аякс', 'Челси'], 3); //возвращает ['Манго', 'Поли', 'Аякс']
+// makeArray(['Земля', 'Юпитер'], ['Нептун', 'Уран'], 4);
