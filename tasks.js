@@ -21,3 +21,22 @@
 // // Пиши код выше этой строки
 //   return result;
 
+// function checkForSpam(message) {
+//   let result;
+//   // Пиши код ниже этой строки
+//     if (message.includes('spam') || message.includes('sale')) {
+    
+//     result = true;
+//     }
+//   result = false;
+//   // Пиши код выше этой строки
+//   return result;
+// };
+
+
+//  checkForSpam('Latest technology news') ;
+// checkForSpam('Get best sale offers now!'); 
+// checkForSpam('Amazing SalE, only tonight!');
+// checkForSpam('Trust me, this is not a spam message'); 
+// checkForSpam('Get rid of sPaM emails. Our book in on sale!');
+// checkForSpam('[SPAM] How to earn fast money?');
