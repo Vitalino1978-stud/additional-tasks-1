@@ -102,3 +102,27 @@
 // }
 // //calculateTotalPrice([12, 85, 37, 4])
 // console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+// function getCommonElements(array1, array2) {
+//   // Пиши код ниже этой строки
+
+//   const newArray = [];
+  
+//   for (element of array1) {
+//     if (array2.includes(element)) {
+//       newArray.push(element);
+//     }
+//   }
+//   return newArray;
+
+// function getEvenNumbers(start, end) {
+//     // Пиши код ниже этой строки
+//   const arr = [];
+  //   for (let i = start; i <= end; i+=1) {
+//     if (i % 2 === 0){
+//       arr.push(i);
+//     }
+//   }
+//   return arr;
+  //     // Пиши код выше этой строки
+//   }
