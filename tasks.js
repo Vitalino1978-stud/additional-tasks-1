@@ -51,3 +51,13 @@
 // }
 // slugify('Массивы для новичков');
 // console.log(slugify('Массивы для новичков'));
+
+// const fruits = ['яблоко', 'слива', 'груша', 'апельсин', 'банан'];
+// // Пиши код ниже этой строки
+// const firstTwoEls = fruits.slice(0, 2);
+// console.log(firstTwoEls);
+// const nonExtremeEls = fruits.slice(1, fruits.length - 1);
+// console.log(nonExtremeEls);
+// const lastThreeEls = fruits.slice(-3);
+// console.log(lastThreeEls);
+
