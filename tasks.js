@@ -254,3 +254,16 @@
 // }
 // console.log(getAllPropValues('name'));
 // console.log(getAllPropValues('quantity'));
+
+// const hotel = {
+//   name: 'Resort Hotel',
+//   stars: 5,
+//   capacity: 100,
+// };
+// console.log(hotel.name);
+// console.log(Object.values(hotel));
+
+// // Перебор ключей объекта hotel
+// for (const key in hotel) {
+//   console.log('Key: ', key);
+// }
