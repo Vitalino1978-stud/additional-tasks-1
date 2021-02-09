@@ -252,3 +252,5 @@
 //   return newArr;
 //   // Пиши код выше этой строки
 // }
+// console.log(getAllPropValues('name'));
+// console.log(getAllPropValues('quantity'));
