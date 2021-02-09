@@ -295,3 +295,15 @@
 
 // console.log(calculateTotalPrice('Радар')); 
 //  console.log(calculateTotalPrice('Дроид'));
+
+// const book = {
+//   title: 'Последнее королевство',
+//   author: 'Бернард Корнуэлл',
+//   genres: ['историческая проза', 'приключения'],
+//   public: true,
+//  //rating: 8.38,
+// };
+// const { title, author, rating: rat } = book;
+// //console.log(title);
+// //console.log(author);
+// console.log(rat);
