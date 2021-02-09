@@ -180,3 +180,26 @@
   
 // }
 // filterArray([1, 2, 3, 4, 5], 3); 
+
+// const colors = [
+//   { hex: '#f44336', rgb: '244,67,54' },
+//   { hex: '#2196f3', rgb: '33,150,243' },
+//   { hex: '#4caf50', rgb: '76,175,80' },
+//   { hex: '#ffeb3b', rgb: '255,235,59' },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Пиши код ниже этой строки
+// const values = Object.values(colors);
+// for (const color of colors) {
+//   //console.log(color.hex);
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb);
+
+//   // hexColors.push(colors.hex);
+//   // rgbColors.push(colors.rgb);
+
+// }
+// console.log(hexColors);
+// console.log(rgbColors);
