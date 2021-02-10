@@ -368,3 +368,14 @@
 // }
 // console.log(makeTask({ category: 'Домашнее', priority: 'Низкий', text: 'Вынести мусор' }));
 // // { category: 'Домашнее', priority: 'Низкий', text: 'Вынести мусор', completed: false }.
+
+// function add(...args) {
+//   let total = 0;
+//   for (let i = 0; i<args.length; i+=1) {
+//     total +=args[i];
+  
+//   // Пиши код выше этой строки
+// }
+//   return total;
+// }
+// console.log(add(12, 4, 11, 48));
