@@ -352,3 +352,19 @@
 // const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
 // const bestScore = Math.max(...allScores);
 // const worstScore = Math.min(...allScores);
+
+// function makeTask(data) {
+//   const completed = false;
+//   const category = 'Общее';
+//   const priority = 'Обычный';
+//   // Пиши код ниже этой строки
+  
+//   const { text, ...rest } = data;
+//   const newObject = {text, category, priority, completed, ...data};
+//   //return data;
+//   return newObject;
+
+//   // Пиши код выше этой строки
+// }
+// console.log(makeTask({ category: 'Домашнее', priority: 'Низкий', text: 'Вынести мусор' }));
+// // { category: 'Домашнее', priority: 'Низкий', text: 'Вынести мусор', completed: false }.
