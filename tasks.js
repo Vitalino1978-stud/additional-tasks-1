@@ -328,3 +328,19 @@
 // }
 // console.log(hexColors);
 // console.log(rgbColors);
+
+// const forecast = {
+//   today: {
+//     low: 28,
+//     high: 32,
+//     icon: 'https://www.flaticon.com/svg/static/icons/svg/861/861059.svg',
+//   },
+//   tomorrow: {
+//     low: 27,
+//     high: 31,
+//   },
+// };
+// // Пиши код ниже этой строки
+// const {today:{low: lowToday, high: highToday, icon: todayIcon}, tomorrow: {low: lowTomorrow, high: highTomorrow, tomorrowIcon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg'},} = forecast;
+
+// console.log(tomorrowIcon);
