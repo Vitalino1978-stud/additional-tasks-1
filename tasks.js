@@ -392,3 +392,19 @@
 // console.log(addOverNum(10, 12, 4, 11, 48, 10, 8)); //71
 // console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
 // console.log(addOverNum(50, 15, 27));
+
+// Пиши код ниже этой строки
+// function findMatches(firstArray, ...args) {
+//   const matches = []; // Не изменяй эту строку
+//    for (let i = 0; i < firstArray.length; i+=1) {
+//     for (const arg of args) {
+//       if (arg === firstArray[i]) {
+//          matches.push(arg);
+//       }
+//     }
+//   }
+  
+//   // Пиши код выше этой строки
+//   return matches;
+// }
+// console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
