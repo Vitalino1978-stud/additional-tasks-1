@@ -408,3 +408,16 @@
 //   return matches;
 // }
 // console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
+
+// const bookShelf = {
+//   books: ['Последнее королевство', 'Мгла', 'Страж снов'],
+//   updateBook(oldName, newName) {
+//     // Пиши код ниже этой строки
+//    const bookIndex = this.books.indexOf(oldName);
+//     this.books.splice(bookIndex, 1);
+//     this.books.splice(bookIndex, 0, newName);
+	
+	
+//     // Пиши код выше этой строки
+//   },
+// };
