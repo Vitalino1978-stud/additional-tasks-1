@@ -421,3 +421,15 @@
 //     // Пиши код выше этой строки
 //   },
 // };
+//const atTheOldToad = {
+//   // Пиши код ниже этой строки
+//   potions: [],
+//    addPotion(potionName) {
+//     this.potions.push(potionName);
+//   },
+//     removePotion(potionName) {
+//     const potionIndex = this.potions.indexOf(potionName);
+//     this.potions.splice(potionIndex, 1);
+//   },
+//   // Пиши код выше этой строки
+// };
