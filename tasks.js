@@ -435,3 +435,34 @@
 // };
 
 //4 module//
+// Дополни функцию makeMessage так, чтобы она ожидала вторым параметром(параметр callback)
+// колбэк - функцию и возвращала ее вызов.
+// Функция deliverPizza или makePizza будет передаваться как колбэк и ожидать аргументом
+// имя готовой доставляемой пиццы.
+
+// function deliverPizza(pizzaName) {
+//   return `Доставляем пиццу ${pizzaName}.`;
+  
+// }
+// function makePizza(pizzaName) {
+//   return `Пицца ${pizzaName} готовится, ожидайте...`;
+  
+// }
+// // Пиши код ниже этой строки
+// function makeMessage(pizzaName, callback) {
+//   return callback(pizzaName);
+//     // callback(makePizza);
+// }
+// console.log(makeMessage('Роял гранд', makePizza));
+// // возвращает строку 'Пицца Роял гранд готовится, ожидайте...'.
+// console.log(makeMessage('Ультрасыр', deliverPizza));
+// // возвращает строку 'Доставляем пиццу Ультрасыр.'.
+
+// const printMessage = function(message) {
+//   console.log(message);
+// };
+// const higherOrderFunction = function(callback) {
+//   const string = 'HOCs are awesome';
+//   callback(string);
+// };
+// higherOrderFunction(printMessage);
