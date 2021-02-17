@@ -671,3 +671,10 @@
 // child.age = 27;
 
 // // Пиши код выше этой строки
+
+// --
+// function Car(brand, model, price) {
+//   this.brand = brand;
+//   this.model = model;
+//   this.price = price;
+// }
