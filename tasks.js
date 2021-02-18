@@ -741,3 +741,16 @@
 // console.log(builder.getValue()); // '^.^'
 // builder.padBoth('=');
 // console.log(builder.getValue()); // '=^.^='
+
+// class Car {
+//   brand;
+//   model;
+//   price;
+//   constructor({ brand, model, price }){
+//     this.brand = brand;
+//   this.model = model;
+//   this.price = price;
+    
+// }
+// }
+
