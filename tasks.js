@@ -918,42 +918,96 @@
 //     this.#price = newPrice;
 //   }
 // }
-class Car {
-  // Пиши код ниже этой строки
-  static MAX_PRICE = 50000;
-  #price;
+// class Car {
+//   // Пиши код ниже этой строки
+//   static MAX_PRICE = 50000;
+//   #price;
 
-  constructor({ price }) {
-    this.#price = price;
-  }
+//   constructor({ price }) {
+//     this.#price = price;
+//   }
 
-  get price() {
-    return this.#price;
-  }
+//   get price() {
+//     return this.#price;
+//   }
 
-  set price(newPrice) {
-    if (Car.MAX_PRICE <= newPrice){
-      // return Car.MAX_PRICE;
-      console.log(newPrice);
-      console.log(Car.MAX_PRICE);
-    }
-    else {
-  if (Car.MAX_PRICE > newPrice) 
+//   set price(newPrice) {
+//     if (Car.MAX_PRICE <= newPrice){
+//       // return Car.MAX_PRICE;
+//       console.log(newPrice);
+//       console.log(Car.MAX_PRICE);
+//     }
+//     else {
+//   if (Car.MAX_PRICE > newPrice) 
  
-        this.#price = newPrice;
-      console.log(newPrice);
-  } 
-  }
+//         this.#price = newPrice;
+//       console.log(newPrice);
+//   } 
+//   }
   
  
-  // Пиши код выше этой строки
-}
+//   // Пиши код выше этой строки
+// }
 
-const audi = new Car({price: 35000});
-console.log(audi.price); // 35000
+// const audi = new Car({price: 35000});
+// console.log(audi.price); // 35000
 
-audi.price = 49000;
-console.log(audi.price); // 49000
+// audi.price = 49000;
+// console.log(audi.price); // 49000
 
-audi.price = 51000;
-console.log(audi.price); // 49000
+// audi.price = 51000;
+// console.log(audi.price); // 49000
+
+// practice 20.022021
+
+
+// class User {
+
+//   #users = [];
+
+//   constructor({ login, email, password, status }) {
+//     this._login = login;
+//     this.email = email;
+//     this.password = password;
+//     this.status = status;
+//   }
+//   showUsers() {
+//     console.log(this.#users);
+//    }
+//   showLogin() {
+//     return this._login;
+//   }
+//   get login() {
+//     return this._login;
+//   }
+//   set login(newLogin) {
+//     this._login = newLogin;
+  
+//   }
+//   addUser(User) {
+//     this.#users.push(User);
+//   }
+
+// }
+
+// const bob = new User({login: 'bob',  email: 'bob@mail.com', password: 'bobdillan', status: 'visitor'});
+// // console.log(bob);
+// // console.log(bob.login); 
+
+// bob.login = 'jack';
+// console.log(bob.users);
+// console.log(bob.showUsers());
+
+// // console.log(bob.login);
+
+// class Admin extends User {
+//   constructor({masterPassword, ...rest}) {
+//     super(rest);
+//     this.masterPassword = masterPassword;
+    
+//   }
+
+// }
+// const bobAdmin = new Admin({ login: 'bobAdmin', email: 'bobAdmin@mail.com', password: 'bobdillanAdmin', status: 'Admin', masterPassword: 'bobSuperAdmin' })
+// console.log(bobAdmin);
+// console.log(bobAdmin.login);
