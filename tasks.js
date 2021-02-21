@@ -1014,6 +1014,30 @@
 // console.log(Car.checkPrice(audi.price)); // Всё хорошо, цена в порядке.
 // console.log(Car.checkPrice(bmw.price)); // Внимание! Цена превышает допустимую.
 
+// task 17-5
+
+// class User {
+//   email;
+
+//   constructor(email) {
+//     this.email = email;
+//   }
+
+//   get email() {
+//     return this.email;
+//   }
+
+//   set email(newEmail) {
+//     this.email = newEmail;
+//   }
+// }
+// // Пиши код ниже этой строки
+// class Admin extends User {
+// static AccessLevel = { 
+//   BASIC: 'basic', 
+//   SUPERUSER: 'superuser' }
+// }
+
 
 // practice 20.022021
 
