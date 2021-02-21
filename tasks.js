@@ -1134,6 +1134,21 @@
 // console.log(mango.isBlacklisted('poly@mail.com')); // true 
 
 // practice 20.022021
+// кастомний фільтр
+// function filter(cb) {
+//   console.log(this);
+//   const newArr = [];
+//   for (let i = 0; i < this.length; i++){
+//     if (cb(this[i], i, this)) {
+//       newArr.push(this[i]);
+//     }
+//   }
+//   return newArr;
+// }
+// // console.log(filter((e, i) => i > 2));
+// Array.prototype.newFilter = filter;
+// const arrr = [2, 5, 7, 9];
+// console.log(arrr.newFilter((e) => e > 2));
 
 
 // class User {
