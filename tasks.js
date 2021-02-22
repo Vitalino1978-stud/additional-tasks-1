@@ -1323,3 +1323,10 @@
 //   // Пиши код выше этой строки
 //   return quantity * pricePerItem;
 // }
+
+// task 6-5
+// Пиши код ниже этой строки
+// const calculateTotalPrice = (quantity, pricePerItem) => 
+//    quantity * pricePerItem;
+
+// Пиши код выше этой строки
