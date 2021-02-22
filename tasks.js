@@ -1270,3 +1270,18 @@
 // const bobAdmin = new Admin({ login: 'bobAdmin', email: 'bobAdmin@mail.com', password: 'bobdillanAdmin', status: 'Admin', masterPassword: 'bobSuperAdmin' })
 // console.log(bobAdmin);
 // console.log(bobAdmin.login);
+
+// module 6
+
+// task 6-1
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Пиши код ниже этой строки
+
+//   orderedItems.forEach(function(number, index) {
+//     totalPrice += number;
+//   })
+
+//   // Пиши код выше этой строки
+//   return totalPrice;
+}
