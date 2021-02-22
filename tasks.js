@@ -1300,3 +1300,18 @@
 //     // Пиши код выше этой строки
 //     return filteredNumbers;
 //   }
+
+// task 6-3
+// function getCommonElements(firstArray, secondArray) {
+//     const commonElements = [];
+//     // Пиши код ниже этой строки
+  
+//     firstArray.forEach(function(number) {
+//       if (secondArray.includes(number)) {
+//         commonElements.push(number);
+//       }
+//     })
+  
+//     return commonElements;
+//     // Пиши код выше этой строки
+//   }
