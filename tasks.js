@@ -1315,3 +1315,11 @@
 //     return commonElements;
 //     // Пиши код выше этой строки
 //   }
+
+// task 6-4
+// Пиши код ниже этой строки
+
+// const calculateTotalPrice = (quantity, pricePerItem) => {
+//   // Пиши код выше этой строки
+//   return quantity * pricePerItem;
+// }
