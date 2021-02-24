@@ -1387,6 +1387,12 @@
 //   return newArray;
 //     // Пиши код выше этой строки
 //   }
+
+// task 6-10
+// const planets = ['Земля', 'Марс', 'Венера', 'Юпитер'];
+// // Пиши код ниже этой строки
+
+// const planetsLengths = planets.map((planet)=> planet.length);
 // -----------
 // setTimeout(() => {
 //   console.log('при вызове коллбек функции через 3 секунди');
