@@ -1330,3 +1330,41 @@
 //    quantity * pricePerItem;
 
 // Пиши код выше этой строки
+
+// task 6-6
+// Пиши код ниже этой строки
+// const calculateTotalPrice = (orderedItems) => {
+//  let totalPrice = 0;
+
+//   orderedItems.forEach((item)=> {
+//     totalPrice += item;
+//   });
+
+//   return totalPrice;
+// }
+// Пиши код выше этой строки
+
+// task 6-7
+// const filterArray = (numbers, value) => {
+//     const filteredNumbers = [];
+  
+//     numbers.forEach((number) => {
+//       if (number > value) {
+//         filteredNumbers.push(number);
+//     }
+//     });
+  
+//     // Пиши код выше этой строки
+//     return filteredNumbers;
+//   }
+
+// -----------
+// setTimeout(() => {
+//   console.log('при вызове коллбек функции через 3 секунди');
+// }, 3000);
+
+// or
+// const log = () => {
+//   console.log('при вызове коллбек функции через 3 секунди');
+// };
+// setTimeout(log, 3000);
