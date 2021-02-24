@@ -1358,6 +1358,20 @@
 //     return filteredNumbers;
 //   }
 
+// task 6-8
+// Пиши код ниже этой строки
+// const getCommonElements = (firstArray, secondArray) => {
+//     const commonElements = [];
+  
+//     firstArray.forEach((element) => {
+//       if (secondArray.includes(element)) {
+//         commonElements.push(element);
+//       }
+//     });
+  
+//     // Пиши код выше этой строки
+//     return commonElements;
+//   }
 // -----------
 // setTimeout(() => {
 //   console.log('при вызове коллбек функции через 3 секунди');
