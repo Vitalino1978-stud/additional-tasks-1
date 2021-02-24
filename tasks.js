@@ -1372,6 +1372,21 @@
 //     // Пиши код выше этой строки
 //     return commonElements;
 //   }
+
+// task 6-9
+// function changeEven(numbers, value) {
+//     // Пиши код ниже этой строки
+//   const newArray = [];
+//   numbers.forEach(number => {
+//     if (number % 2 === 0) {
+//       number += value;
+        
+//       }
+//    newArray.push(number);
+//     });
+//   return newArray;
+//     // Пиши код выше этой строки
+//   }
 // -----------
 // setTimeout(() => {
 //   console.log('при вызове коллбек функции через 3 секунди');
