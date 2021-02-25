@@ -1451,6 +1451,28 @@
 // const evenNumbers = numbers.filter(number => number % 2 === 0);
 // const oddNumbers = numbers. filter(number => number % 2 !== 0);
   // Пиши код выше этой строки
+
+  // task 6-16
+  // const books = [
+  //   {
+  //     title: 'Последнее королевство',
+  //     author: 'Бернард Корнуэлл',
+  //     genres: ['приключения', 'историческое']
+  //   },
+  //   {
+  //     title: 'На берегу спокойных вод',
+  //     author: 'Роберт Шекли',
+  //     genres: ['фантастика', 'мистика']
+  //   },
+  //   {
+  //     title: 'Красна как кровь',
+  //     author: 'Ли Танит',
+  //     genres: ['ужасы', 'мистика', 'приключения']
+  //   }
+  // ];
+  // // Пиши код ниже этой строки
+  // const allGenres = books.flatMap(book => book.genres);
+  // const uniqueGenres = allGenres.filter((genre, index, array) => array.indexOf(genre) === index);
 // // -----------
 // setTimeout(() => {
 //   console.log('при вызове коллбек функции через 3 секунди');
