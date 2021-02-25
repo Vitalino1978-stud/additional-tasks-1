@@ -1443,6 +1443,13 @@
 //    return users.map((user) => user.email);  
 
 //   };
+
+// task 6-15
+// const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
+// // Пиши код ниже этой строки
+
+// const evenNumbers = numbers.filter(number => number % 2 === 0);
+// const oddNumbers = numbers. filter(number => number % 2 !== 0);
   // Пиши код выше этой строки
 // // -----------
 // setTimeout(() => {
