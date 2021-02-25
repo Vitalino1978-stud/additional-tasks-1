@@ -1429,7 +1429,14 @@
   
 //   const genres = books.flatMap((book) => book.genres);
 
-// -----------
+//  task 6-13
+// // Пиши код ниже этой строки
+// const getUserNames = users => {
+//     return users.map((user) => user.name);
+
+//   };
+//   // Пиши код выше этой строки
+// // -----------
 // setTimeout(() => {
 //   console.log('при вызове коллбек функции через 3 секунди');
 // }, 3000);
