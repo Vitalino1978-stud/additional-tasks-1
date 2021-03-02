@@ -1474,12 +1474,156 @@
   // const allGenres = books.flatMap(book => book.genres);
   // const uniqueGenres = allGenres.filter((genre, index, array) => array.indexOf(genre) === index);
 // // -----------
+
+// const logMessage = () => {
+//   console.log('Лог привызове колбек-функции через 3 секунды');
+
+// };
+// console.log('До вызова setTimeout');
 // setTimeout(() => {
-//   console.log('при вызове коллбек функции через 3 секунди');
+//   console.log('Внутри callback for setTimeout');
+// }, 2000);
+
+// console.log('After call setTimeout');
+// for (let index = 0; index < 10; index++) {
+//   console.log(index);
+// }
+// const logger = time => {
+//   console.log(`Лог через ${time}ms, потому, что не отменили таймаут`);
+// };
+// const timerId = setTimeout(logger, 2000, 2000);
+// const shouldCancelTimer = Math.random() > 0.3;
+// console.log(shouldCancelTimer);
+
+// if (shouldCancelTimer) {
+//   clearTimeout(timerId);
+// }
+
+// const logger = time => console.log(`Log every ${time}ms - ${Date.now()}`);
+// console.log('Before call setInterval');
+// setInterval(logger, 2000, 2000);
+// console.log('After call setInterval');
+
+// const intervalId = setInterval(logger, 2000, 2000);
+// const shouldCancelInterval = Math.random() > 0.3;
+// console.log(shouldCancelInterval);
+// if (shouldCancelInterval) {
+//   clearInterval(intervalId);
+// };
+
+// console.log('До вызова setTimeout');
+// setTimeout(() => {
+//   console.log('вызов отложеной функции 2000');
+// }, 2000);
+// setTimeout(() => {
+//   console.log('вызов отложеной функции 1000');
+// }, 1000);
+
+// console.log('после вызова setTimeout');
+
+// Оповещение
+// const NOTIFICATION_DELAY = 3000;
+// let timerId = null;
+// const refs = {
+//   notification: document.querySelector('.js-alert'),
+// };
+// refs.notification.addEventListener('click', onNotificationClick);
+// showNotification();
+
+// function onNotificationClick() {
+//   hideNotification();
+//   clearTimeout(timeoutId);
+// }
+// function showNotification() {
+//   refs.notification.classList.add('is-visible');
+//   timeoutId = setTimeout(() => {
+//     console.log('Закрываем алерт автоматически, чтоб не висел');
+//     hideNotification();
+//   }, NOTIFICATION_DELAY);
+// }
+// function hideNotification() {
+//   refs.notification.classList.remove('is-visible')
+// }
+// const PROMPT_DELAY = 1000;
+// const MAX_PROMPT_ATTEMPTS = 3;
+
+// let promptCounter = 0;
+// let hasSubscribed = false;
+
+// const intervalId = setInterval(() => {
+//   if (promptCounter === MAX_PROMPT_ATTEMPTS) {
+//     console.log('нужно остановить интервал');
+//     clearInterval(intervalId);
+//     return;
+//   }
+//   console.log('Подпишитесь на рассылку - ' + Date.now());
+//   promptCounter += 1;
+// }, PROMPT_DELAY);
+
+// const date1 = new Date().getTime();
+// console.log('date1', date1);
+// setTimeout(() => {
+//   const date2 = new Date().getTime();
+//   console.log('date1', date1);
+//   console.log('date2', date2);
+//   console.log(date2 - date1);
 // }, 3000);
 
-// or
-// const log = () => {
-//   console.log('при вызове коллбек функции через 3 секунди');
+
+///////////////////////////  TIMER BY REPETA  /////////
+// import './common.css'
+// const timer = {
+//   start() {
+//     const startTime = Date.now();
+//     setInterval(() => {
+//       const currentTime = Date.now();
+//       const deltaTime = currentTime - startTime;
+//       const {hours, mins, secs} = getTimeComponents(deltaTime);
+//       // console.log('start -> currentTime', currentTime);
+//       // console.log('start -> startTime', startTime);
+//       // console.log('qweqweqwe');
+
+//       // console.log(currentTime - startTime);
+//       console.log(`${pad(new Date(deltaTime).getUTCHours())}:
+//       ${pad(new Date(deltaTime).getMinutes())}:
+//       ${pad(new Date(deltaTime).getSeconds())}`);
+//     }, 1000);
+//   },
 // };
-// setTimeout(log, 3000);
+// timer.start();
+
+// function updateClockFace({ hours, mins, secs }) {
+//   refs.clockFace.textContent = `${hours}:${mins}:${secs}`;
+// }
+
+// function pad(value) {
+//   return String(value).padStart(2, '0');
+// }
+
+// function getTimeComponents(time) {
+//   const hours = pad(Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+//   ));
+//   const mins = pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
+//   const secs = pad(Math.floor((time % (1000 * 60)) / 1000));
+//   return { hours, mins, secs };
+// }
+
+// task 6-17
+
+// const books = [
+//   { title: 'Последнее королевство', author: 'Бернард Корнуэлл', rating: 8.38 },
+//   { title: 'На берегу спокойных вод', author: 'Роберт Шекли', rating: 8.51 },
+//   { title: 'Сон смешного человека', author: 'Федор Достоевский', rating: 7.75 },
+//   { title: 'Красна как кровь', author: 'Ли Танит', rating: 7.94 },
+//   { title: 'Враг Божий', author: 'Бернард Корнуэлл', rating: 8.67 }
+// ];
+
+// const MIN_RATING = 8;
+// const AUTHOR = 'Бернард Корнуэлл';
+// // Пиши код ниже этой строки
+
+// const topRatedBooks = books.filter((book) => book.rating >= MIN_RATING);
+// console.log(topRatedBooks);
+
+// const booksByAuthor = books.filter((book) => book.author === AUTHOR);
+// console.log(booksByAuthor);
