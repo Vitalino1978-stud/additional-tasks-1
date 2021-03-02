@@ -1627,3 +1627,8 @@
 
 // const booksByAuthor = books.filter((book) => book.author === AUTHOR);
 // console.log(booksByAuthor);
+
+// task 6-18
+// const getUsersWithEyeColor = (users, color) => {
+//   return users.filter((user) => user.eyeColor === color);
+//   };
