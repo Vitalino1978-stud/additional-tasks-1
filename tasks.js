@@ -1641,3 +1641,11 @@
 // const getUsersWithFriend = (users, friendName) => {
 //   return users.filter((user) => user.friends.includes(friendName)); 
 // };
+// task 6-21
+// const getFriends = (users) => {
+//    const commonFriends = users.flatMap(user => user.friends);
+//   const uniqueFriends = commonFriends.filter((friends, index, array) => array.indexOf(friends) === index);
+  
+//   return uniqueFriends;
+  
+// };
