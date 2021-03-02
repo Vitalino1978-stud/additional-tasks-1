@@ -1649,3 +1649,7 @@
 //   return uniqueFriends;
   
 // };
+// task 6-22
+// const getActiveUsers = (users) => {
+//    return users.filter((user) => user.isActive === true); 
+// };
