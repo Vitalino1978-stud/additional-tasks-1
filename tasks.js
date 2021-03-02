@@ -1637,3 +1637,7 @@
 //  return users.filter((user) => user.age >= minAge && user.age <= maxAge);
 
 // };
+// task 6-20
+// const getUsersWithFriend = (users, friendName) => {
+//   return users.filter((user) => user.friends.includes(friendName)); 
+// };
