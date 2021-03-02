@@ -1632,3 +1632,8 @@
 // const getUsersWithEyeColor = (users, color) => {
 //   return users.filter((user) => user.eyeColor === color);
 //   };
+// task 6-19
+// const getUsersWithAge = (users, minAge, maxAge) => {
+//  return users.filter((user) => user.age >= minAge && user.age <= maxAge);
+
+// };
