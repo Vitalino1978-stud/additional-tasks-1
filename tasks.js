@@ -1704,4 +1704,19 @@
 //   return users.every((user) => user.isActive); 
 // };
 // // Пиши код выше этой строки
+// task 6-28
+// const firstArray = [26, 94, 36, 18];
+// const secondArray = [17, 61, 23];
+// const thirdArray = [17, 26, 94, 61, 36, 23, 18];
+// // Пиши код ниже этой строки
+
+// const anyElementInFirstIsEven = firstArray.some((firstArray) => firstArray.elem % 2 !== 0);
+// const anyElementInFirstIsOdd = firstArray.some((firstArray) => firstArray.elem % 2 === 0)
+
+// const anyElementInSecondIsEven = secondArray.some((secondArray) => secondArray.elem % 2 === 0);
+// const anyElementInSecondIsOdd = secondArray.some((secondArray) => secondArray.elem % 2 !== 0);
+
+// const anyElementInThirdIsEven = thirdArray.some((thirdArray) => thirdArray.elem % 2 !== 0)
+// const anyElementInThirdIsOdd = thirdArray.some((thirdArray) => thirdArray.elem % 2 !== 0)
+
 
