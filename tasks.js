@@ -1697,3 +1697,11 @@
 
 // const eachElementInThirdIsEven = thirdArray.every((thirdArray) => thirdArray.elem % 2 === 0);
 // const eachElementInThirdIsOdd = thirdArray.every((thirdArray) => thirdArray.elem % 2 !== 0);
+
+// task 6-27
+// Пиши код ниже этой строки
+// const isEveryUserActive = (users) => {
+//   return users.every((user) => user.isActive); 
+// };
+// // Пиши код выше этой строки
+
