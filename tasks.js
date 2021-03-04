@@ -1671,3 +1671,10 @@
 
 // const bookWithTitle = books.find((book) => book.title === BOOK_TITLE);
 // const bookByAuthor = books.find((book) => book.author === AUTHOR);
+
+// task 6-25
+// Пиши код ниже этой строки
+// const getUserWithEmail = (users, email) => { return users.find((user) => user.email === email); 
+   
+// };
+// // Пиши код выше этой строки
