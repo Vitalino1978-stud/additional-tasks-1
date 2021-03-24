@@ -1720,3 +1720,10 @@
 // const anyElementInThirdIsOdd = thirdArray.some((thirdArray) => thirdArray.elem % 2 !== 0)
 
 
+// Task 6-29
+// Пиши код ниже этой строки
+// const isAnyUserActive = users => {return users.some((user) => user.isActive)
+   
+// };
+// Пиши код выше этой строки
+
