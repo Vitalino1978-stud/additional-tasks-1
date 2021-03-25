@@ -1727,3 +1727,41 @@
 // };
 // Пиши код выше этой строки
 
+// Task 6-30
+// const players = {
+//   mango: 1270,
+//   poly: 468,
+//   ajax: 710,
+//   kiwi: 244
+// };
+// const playtimes = Object.values(players); // [1270, 468, 710, 244]
+// // Пиши код ниже этой строки
+
+// const totalPlayTime = playtimes.reduce((previousValue, number) => {return previousValue + number;}, 0);
+
+// // Пиши код выше этой строки
+// const averagePlayTime = totalPlayTime / playtimes.length;
+
+// Task 6-31
+
+// const players = [
+//   { name: 'Манго', playtime: 1270, gamesPlayed: 4 },
+//   { name: 'Поли', playtime: 469, gamesPlayed: 2 },
+//   { name: 'Аякс', playtime: 690, gamesPlayed: 3 },
+//   { name: 'Киви', playtime: 241, gamesPlayed: 1 },
+// ];
+// // Пиши код ниже этой строки
+// console.log(players);
+// const totalAveragePlaytimePerGame = players.reduce((total, player) =>
+// {
+//   return total + (player.playtime / player.gamesPlayed);
+
+//   }, 0);
+
+// Task 6-32
+// Пиши код ниже этой строки
+// const calculateTotalBalance = users => {return users.reduce((total, user) => {
+//   return total + user.balance; 
+// }, 0);
+//   };
+// Пиши код выше этой строки

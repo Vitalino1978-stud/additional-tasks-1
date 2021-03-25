@@ -12,10 +12,10 @@
  * http://newsapi.org/v2/everything?q=cat&language=en&pageSize=5&page=1
  */
 
-import articlesTpl from './templates/articles.hbs';
-import './css/common.css';
-import NewsApiService from './js/news-service';
-import LoadMoreBtn from './js/components/load-more-btn';
+// import articlesTpl from './templates/articles.hbs';
+// import './css/common.css';
+// import NewsApiService from './js/news-service';
+// import LoadMoreBtn from './js/components/load-more-btn';
 
 const refs = {
   searchForm: document.querySelector('.js-search-form'),
